@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610539118097,775,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221351,128,1,7,https://pokeapi.co/api/v2/pokemon/7,525,0,485
+1610539120034,221,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221353,128,1,8,https://pokeapi.co/api/v2/pokemon/7,60,0,0
+1610539120320,240,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221349,128,1,11,https://pokeapi.co/api/v2/pokemon/7,107,0,0
+1610539117951,1236,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-1,,false,,664053,384,1,11,null,692,1426,485
+1610539727921,677,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221355,128,1,7,https://pokeapi.co/api/v2/pokemon/7,510,0,440
+1610539729780,95,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221353,128,1,10,https://pokeapi.co/api/v2/pokemon/7,33,0,0
+1610539729936,112,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221351,128,1,8,https://pokeapi.co/api/v2/pokemon/7,79,0,0
+1610539727790,884,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-1,,false,,664059,384,1,8,null,622,1441,440

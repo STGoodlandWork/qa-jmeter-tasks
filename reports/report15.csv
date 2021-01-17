@@ -1,0 +1,166 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610539727916,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-1,text,false,Response was null,1197,0,1,6,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539727791,315,FTP Request,000,java.io.FileNotFoundException: C:\Program Files\apache-jmeter-5.4\FTP_Output.txt (Access is denied),FTP Test 5-1,,false,,0,0,1,5,ftp://test.rebex.net:21/readme.txt (Ascii)  -> C:\Program Files\apache-jmeter-5.4\FTP_Output.txt,174,0,0
+1610539728271,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-2,text,false,Response was null,1197,0,1,5,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539728278,348,GetPokemon1,200,OK,PokemonTask1 2-2,text,true,,200769,136,2,7,https://pokeapi.co/api/v2/pokemon/bulbasaur,197,0,93
+1610539727921,731,GetPokemon1,200,OK,PokemonTask1 2-1,text,true,,200769,136,2,7,https://pokeapi.co/api/v2/pokemon/bulbasaur,625,0,439
+1610539728768,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-3,text,false,Response was null,1197,0,1,8,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539728292,593,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-2,,true,,640727,408,3,10,null,0,1,79
+1610539728293,347,HTTP Request,200,OK,PokemonTask3 4-2,text,true,,200769,136,2,7,https://pokeapi.co/api/v2/pokemon/bulbasaur,225,0,79
+1610539728640,109,HTTP Request,200,OK,PokemonTask3 4-2,text,true,,218636,137,2,7,https://pokeapi.co/api/v2/pokemon/charmander,49,0,0
+1610539728749,137,HTTP Request,200,OK,PokemonTask3 4-2,text,true,,221322,135,3,10,https://pokeapi.co/api/v2/pokemon/squirtle,65,0,0
+1610539727790,1022,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-1,,true,,640739,408,2,9,null,0,137,439
+1610539727921,672,HTTP Request,200,OK,PokemonTask3 4-1,text,true,,200769,136,2,7,https://pokeapi.co/api/v2/pokemon/bulbasaur,509,0,439
+1610539728598,178,HTTP Request,200,OK,PokemonTask3 4-1,text,true,,218638,137,2,7,https://pokeapi.co/api/v2/pokemon/charmander,55,0,0
+1610539728777,172,HTTP Request,200,OK,PokemonTask3 4-1,text,true,,221332,135,2,9,https://pokeapi.co/api/v2/pokemon/squirtle,123,0,0
+1610539728645,349,GetPokemon4,200,OK,PokemonTask1 2-2,text,true,,218636,137,3,8,https://pokeapi.co/api/v2/pokemon/charmander,131,0,0
+1610539728995,149,GetPokemon7,200,OK,PokemonTask1 2-2,text,true,,221334,135,3,8,https://pokeapi.co/api/v2/pokemon/squirtle,70,0,0
+1610539728779,367,GetPokemon1,200,OK,PokemonTask1 2-3,text,true,,200773,136,3,8,https://pokeapi.co/api/v2/pokemon/bulbasaur,261,0,188
+1610539729267,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-4,text,false,Response was null,1197,0,1,9,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539729147,147,GetPokemon4,200,OK,PokemonTask1 2-3,text,true,,218638,137,4,11,https://pokeapi.co/api/v2/pokemon/charmander,33,0,0
+1610539728654,643,GetPokemon4,200,OK,PokemonTask1 2-1,text,true,,218638,137,4,11,https://pokeapi.co/api/v2/pokemon/charmander,79,0,0
+1610539729299,119,GetPokemon7,200,OK,PokemonTask1 2-1,text,true,,221326,135,4,11,https://pokeapi.co/api/v2/pokemon/squirtle,83,0,0
+1610539728792,668,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-3,,true,,640737,408,2,11,null,0,3,177
+1610539728793,317,HTTP Request,200,OK,PokemonTask3 4-3,text,true,,200771,136,1,8,https://pokeapi.co/api/v2/pokemon/bulbasaur,220,0,177
+1610539729110,176,HTTP Request,200,OK,PokemonTask3 4-3,text,true,,218640,137,1,9,https://pokeapi.co/api/v2/pokemon/charmander,66,0,0
+1610539729287,175,HTTP Request,200,OK,PokemonTask3 4-3,text,true,,221326,135,2,11,https://pokeapi.co/api/v2/pokemon/squirtle,50,0,0
+1610539729296,174,GetPokemon7,200,OK,PokemonTask1 2-3,text,true,,221332,135,4,10,https://pokeapi.co/api/v2/pokemon/squirtle,122,0,0
+1610539729421,110,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-1,text,true,,114,0,4,10,null,31,0,1
+1610539729277,297,GetPokemon1,200,OK,PokemonTask1 2-4,text,true,,200773,136,3,9,https://pokeapi.co/api/v2/pokemon/bulbasaur,217,0,178
+1610539729145,451,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-2,text,true,,114,0,3,9,null,42,0,3
+1610539729576,105,GetPokemon4,200,OK,PokemonTask1 2-4,text,true,,218638,137,2,8,https://pokeapi.co/api/v2/pokemon/charmander,41,0,0
+1610539729291,457,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-4,,true,,640737,408,1,8,null,0,3,143
+1610539729292,253,HTTP Request,200,OK,PokemonTask3 4-4,text,true,,200767,136,1,9,https://pokeapi.co/api/v2/pokemon/bulbasaur,182,0,143
+1610539729546,129,HTTP Request,200,OK,PokemonTask3 4-4,text,true,,218634,137,1,8,https://pokeapi.co/api/v2/pokemon/charmander,53,0,0
+1610539729675,75,HTTP Request,200,OK,PokemonTask3 4-4,text,true,,221336,135,1,8,https://pokeapi.co/api/v2/pokemon/squirtle,29,0,0
+1610539729767,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-5,text,false,Response was null,1197,0,1,8,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539727921,677,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221355,128,1,7,https://pokeapi.co/api/v2/pokemon/7,510,0,440
+1610539729682,114,GetPokemon7,200,OK,PokemonTask1 2-4,text,true,,221328,135,3,10,https://pokeapi.co/api/v2/pokemon/squirtle,69,0,0
+1610539729472,441,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-3,text,true,,114,0,3,10,null,28,0,4
+1610539729780,95,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221353,128,1,10,https://pokeapi.co/api/v2/pokemon/7,33,0,0
+1610539729797,149,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-4,text,true,,114,0,2,9,null,46,0,3
+1610539729777,226,GetPokemon1,200,OK,PokemonTask1 2-5,text,true,,200771,136,1,8,https://pokeapi.co/api/v2/pokemon/bulbasaur,115,0,82
+1610539729936,112,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221351,128,1,8,https://pokeapi.co/api/v2/pokemon/7,79,0,0
+1610539727790,884,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-1,,false,,664059,384,1,8,null,622,1441,440
+1610539730004,145,GetPokemon4,200,OK,PokemonTask1 2-5,text,true,,218636,137,1,7,https://pokeapi.co/api/v2/pokemon/charmander,80,0,0
+1610539729791,469,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-5,,true,,640731,408,1,7,null,0,4,92
+1610539729792,220,HTTP Request,200,OK,PokemonTask3 4-5,text,true,,200763,136,1,8,https://pokeapi.co/api/v2/pokemon/bulbasaur,159,0,92
+1610539730013,127,HTTP Request,200,OK,PokemonTask3 4-5,text,true,,218636,137,1,7,https://pokeapi.co/api/v2/pokemon/charmander,47,0,0
+1610539730141,122,HTTP Request,200,OK,PokemonTask3 4-5,text,true,,221332,135,1,7,https://pokeapi.co/api/v2/pokemon/squirtle,32,0,0
+1610539730150,114,GetPokemon7,200,OK,PokemonTask1 2-5,text,true,,221326,135,1,7,https://pokeapi.co/api/v2/pokemon/squirtle,67,0,0
+1610539730276,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-6,text,false,Response was null,1197,0,1,7,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539730280,152,GetPokemon1,200,OK,PokemonTask1 2-6,text,true,,200769,136,2,9,https://pokeapi.co/api/v2/pokemon/bulbasaur,97,0,75
+1610539730433,107,GetPokemon4,200,OK,PokemonTask1 2-6,text,true,,218638,137,2,9,https://pokeapi.co/api/v2/pokemon/charmander,58,0,0
+1610539730268,294,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-5,text,true,,114,0,2,9,null,12,0,1
+1610539730545,135,GetPokemon7,200,OK,PokemonTask1 2-6,text,true,,221324,135,1,8,https://pokeapi.co/api/v2/pokemon/squirtle,85,0,0
+1610539730289,435,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-6,,true,,640729,408,1,8,null,0,3,72
+1610539730292,181,HTTP Request,200,OK,PokemonTask3 4-6,text,true,,200767,136,1,9,https://pokeapi.co/api/v2/pokemon/bulbasaur,109,0,72
+1610539730473,145,HTTP Request,200,OK,PokemonTask3 4-6,text,true,,218636,137,1,8,https://pokeapi.co/api/v2/pokemon/charmander,67,0,0
+1610539730618,109,HTTP Request,200,OK,PokemonTask3 4-6,text,true,,221326,135,1,8,https://pokeapi.co/api/v2/pokemon/squirtle,63,0,0
+1610539730766,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-7,text,false,Response was null,1197,0,1,8,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539730777,156,GetPokemon1,200,OK,PokemonTask1 2-7,text,true,,200767,136,2,10,https://pokeapi.co/api/v2/pokemon/bulbasaur,82,0,50
+1610539730682,290,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-6,text,true,,114,0,2,10,null,4,0,4
+1610539730935,140,GetPokemon4,200,OK,PokemonTask1 2-7,text,true,,218634,137,1,9,https://pokeapi.co/api/v2/pokemon/charmander,27,0,0
+1610539730789,352,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-7,,true,,640731,408,1,9,null,0,2,59
+1610539730790,153,HTTP Request,200,OK,PokemonTask3 4-7,text,true,,200767,136,1,10,https://pokeapi.co/api/v2/pokemon/bulbasaur,96,0,59
+1610539730943,107,HTTP Request,200,OK,PokemonTask3 4-7,text,true,,218638,137,1,9,https://pokeapi.co/api/v2/pokemon/charmander,41,0,0
+1610539731050,92,HTTP Request,200,OK,PokemonTask3 4-7,text,true,,221326,135,1,9,https://pokeapi.co/api/v2/pokemon/squirtle,55,0,0
+1610539731077,157,GetPokemon7,200,OK,PokemonTask1 2-7,text,true,,221328,135,1,8,https://pokeapi.co/api/v2/pokemon/squirtle,87,0,0
+1610539731268,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-8,text,false,Response was null,1197,0,1,9,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539731279,199,GetPokemon1,200,OK,PokemonTask1 2-8,text,true,,200767,136,2,11,https://pokeapi.co/api/v2/pokemon/bulbasaur,97,0,58
+1610539731235,291,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-7,text,true,,114,0,2,11,null,50,0,3
+1610539731481,112,GetPokemon4,200,OK,PokemonTask1 2-8,text,true,,218640,137,1,10,https://pokeapi.co/api/v2/pokemon/charmander,31,0,0
+1610539731291,364,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-8,,true,,640725,408,1,10,null,0,6,52
+1610539731294,194,HTTP Request,200,OK,PokemonTask3 4-8,text,true,,200769,136,1,11,https://pokeapi.co/api/v2/pokemon/bulbasaur,136,0,52
+1610539731489,92,HTTP Request,200,OK,PokemonTask3 4-8,text,true,,218632,137,1,10,https://pokeapi.co/api/v2/pokemon/charmander,39,0,0
+1610539731582,78,HTTP Request,200,OK,PokemonTask3 4-8,text,true,,221324,135,1,10,https://pokeapi.co/api/v2/pokemon/squirtle,31,0,0
+1610539731594,101,GetPokemon7,200,OK,PokemonTask1 2-8,text,true,,221328,135,1,9,https://pokeapi.co/api/v2/pokemon/squirtle,67,0,0
+1610539731768,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-9,text,false,Response was null,1197,0,1,10,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539731778,167,GetPokemon1,200,OK,PokemonTask1 2-9,text,true,,200767,136,2,12,https://pokeapi.co/api/v2/pokemon/bulbasaur,81,0,55
+1610539731946,109,GetPokemon4,200,OK,PokemonTask1 2-9,text,true,,218646,137,2,12,https://pokeapi.co/api/v2/pokemon/charmander,62,0,0
+1610539727791,4284,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-1,text,false,,199,0,9,12,null,0,0,4284
+1610539731697,412,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-8,text,true,,114,0,2,12,null,44,0,1
+1610539732056,61,GetPokemon7,200,OK,PokemonTask1 2-9,text,true,,221328,135,1,11,https://pokeapi.co/api/v2/pokemon/squirtle,33,0,0
+1610539731788,406,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-9,,true,,640727,408,1,11,null,0,2,70
+1610539731789,170,HTTP Request,200,OK,PokemonTask3 4-9,text,true,,200765,136,1,12,https://pokeapi.co/api/v2/pokemon/bulbasaur,115,0,70
+1610539731960,86,HTTP Request,200,OK,PokemonTask3 4-9,text,true,,218636,137,1,12,https://pokeapi.co/api/v2/pokemon/charmander,30,0,0
+1610539732046,150,HTTP Request,200,OK,PokemonTask3 4-9,text,true,,221326,135,1,11,https://pokeapi.co/api/v2/pokemon/squirtle,99,0,0
+1610539732265,0,Bing Kittens,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 40: http://bing.com/images/search?q=kittens& =& =,Load Test 1-10,text,false,Response was null,1197,0,1,11,http://bing.com/images/search?q=kittens& =& =,0,0,0
+1610539728294,4102,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-2,text,false,,199,0,10,13,null,0,0,4102
+1610539732118,314,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-9,text,true,,114,0,2,13,null,9,0,3
+1610539732277,161,GetPokemon1,200,OK,PokemonTask1 2-10,text,true,,200765,136,1,12,https://pokeapi.co/api/v2/pokemon/bulbasaur,72,0,48
+1610539732439,148,GetPokemon4,200,OK,PokemonTask1 2-10,text,true,,218640,137,1,12,https://pokeapi.co/api/v2/pokemon/charmander,32,0,0
+1610539732288,356,Transaction Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",PokemonTask3 4-10,,true,,640745,408,1,12,null,0,2,43
+1610539732288,159,HTTP Request,200,OK,PokemonTask3 4-10,text,true,,200775,136,1,12,https://pokeapi.co/api/v2/pokemon/bulbasaur,117,0,43
+1610539732448,127,HTTP Request,200,OK,PokemonTask3 4-10,text,true,,218640,137,1,12,https://pokeapi.co/api/v2/pokemon/charmander,60,0,0
+1610539732575,70,HTTP Request,200,OK,PokemonTask3 4-10,text,true,,221330,135,1,12,https://pokeapi.co/api/v2/pokemon/squirtle,33,0,0
+1610539732589,119,GetPokemon7,200,OK,PokemonTask1 2-10,text,true,,221324,135,1,11,https://pokeapi.co/api/v2/pokemon/squirtle,61,0,0
+1610539728793,4101,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-3,text,false,,199,0,10,11,null,0,0,4101
+1610539732709,449,jp@gc - Dummy Sampler,200,OK,PokemonTask1 2-10,text,true,,114,0,1,11,null,3,0,1
+1610539729292,4088,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-4,text,false,,199,0,10,10,null,0,0,4088
+1610539729793,4085,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-5,text,false,,199,0,10,10,null,0,0,4085
+1610539730292,4085,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-6,text,false,,199,0,10,10,null,0,0,4085
+1610539730791,4086,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-7,text,false,,199,0,10,10,null,0,0,4086
+1610539731291,4100,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-8,text,false,,199,0,10,10,null,0,0,4100
+1610539731789,4073,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-9,text,false,,199,0,10,10,null,0,0,4073
+1610539732076,4070,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-1,text,false,,199,0,10,10,null,0,0,4070
+1610539727790,8354,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-1,,false,,398,0,10,10,null,0,1,8354
+1610539732289,4050,JDBC Request - SELECT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-10,text,false,,199,0,9,9,null,0,0,4050
+1610539732396,4082,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-2,text,false,,199,0,9,9,null,0,0,4082
+1610539728292,8184,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-2,,false,,398,0,9,9,null,0,2,8184
+1610539732894,4082,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-3,text,false,,199,0,8,8,null,0,0,4082
+1610539728793,8183,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-3,,false,,398,0,8,8,null,0,1,8183
+1610539733388,4071,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-4,text,false,,199,0,7,7,null,0,0,4071
+1610539729292,8159,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-4,,false,,398,0,7,7,null,0,9,8159
+1610539733877,4082,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-5,text,false,,199,0,6,6,null,0,0,4082
+1610539729792,8167,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-5,,false,,398,0,6,6,null,0,2,8167
+1610539734376,4073,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-6,text,false,,199,0,5,5,null,0,0,4073
+1610539730292,8158,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-6,,false,,398,0,5,5,null,0,0,8158
+1610539734876,4042,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-7,text,false,,199,0,4,4,null,0,0,4042
+1610539730791,8128,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-7,,false,,398,0,4,4,null,0,0,8128
+1610539735391,4056,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-8,text,false,,199,0,3,3,null,0,0,4056
+1610539731291,8156,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-8,,false,,398,0,3,3,null,0,1,8156
+1610539735862,4040,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-9,text,false,,199,0,2,2,null,0,0,4040
+1610539731789,8113,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-9,,false,,398,0,2,2,null,0,2,8113
+1610539736339,4050,JDBC Request - INSERT,null 0,"java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)",JDBC Test 6-10,text,false,,199,0,1,1,null,0,0,4050
+1610539732289,8100,Transaction Controller,,"Number of samples in transaction : 2, number of failing samples : 2",JDBC Test 6-10,,false,,398,0,1,1,null,0,2,8100

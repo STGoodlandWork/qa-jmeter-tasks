@@ -1,0 +1,41 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610534185909,485,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221348,128,1,4,https://pokeapi.co/api/v2/pokemon/7,169,0,80
+1610534186413,832,GetPokemon7,200,OK,PokemonTask2 3-2,text,false,,221352,128,3,8,https://pokeapi.co/api/v2/pokemon/7,237,0,116
+1610534186685,690,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221352,128,3,8,https://pokeapi.co/api/v2/pokemon/7,278,0,0
+1610534186911,917,GetPokemon7,200,OK,PokemonTask2 3-3,text,false,,221350,128,4,10,https://pokeapi.co/api/v2/pokemon/7,364,0,312
+1610534187434,464,GetPokemon7,200,OK,PokemonTask2 3-1,text,false,,221348,128,4,11,https://pokeapi.co/api/v2/pokemon/7,233,0,0
+1610534185909,1639,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-1,,false,,664048,384,4,11,null,680,380,80
+1610534187297,705,GetPokemon7,200,OK,PokemonTask2 3-2,text,false,,221354,128,4,12,https://pokeapi.co/api/v2/pokemon/7,107,0,0
+1610534187409,1423,GetPokemon7,200,OK,PokemonTask2 3-4,text,false,,221350,128,5,13,https://pokeapi.co/api/v2/pokemon/7,476,0,388
+1610534187892,942,GetPokemon7,200,OK,PokemonTask2 3-3,text,false,,221354,128,5,13,https://pokeapi.co/api/v2/pokemon/7,352,0,0
+1610534188031,1056,GetPokemon7,200,OK,PokemonTask2 3-2,text,false,,221354,128,6,16,https://pokeapi.co/api/v2/pokemon/7,593,0,0
+1610534186411,2593,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-2,,false,,664060,384,6,16,null,937,122,116
+1610534187909,1796,GetPokemon7,200,OK,PokemonTask2 3-5,text,false,,221356,128,6,16,https://pokeapi.co/api/v2/pokemon/7,784,0,578
+1610534188880,1081,GetPokemon7,200,OK,PokemonTask2 3-3,text,false,,221354,128,7,19,https://pokeapi.co/api/v2/pokemon/7,328,0,0
+1610534186911,2940,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-3,,false,,664058,384,7,19,null,1044,139,312
+1610534188409,2090,GetPokemon7,200,OK,PokemonTask2 3-6,text,false,,221348,128,7,20,https://pokeapi.co/api/v2/pokemon/7,707,0,435
+1610534188877,1682,GetPokemon7,200,OK,PokemonTask2 3-4,text,false,,221352,128,7,20,https://pokeapi.co/api/v2/pokemon/7,312,0,0
+1610534189739,1539,GetPokemon7,200,OK,PokemonTask2 3-5,text,false,,221350,128,7,20,https://pokeapi.co/api/v2/pokemon/7,757,0,0
+1610534190527,1587,GetPokemon7,200,OK,PokemonTask2 3-6,text,false,,221348,128,7,20,https://pokeapi.co/api/v2/pokemon/7,737,0,0
+1610534188910,3263,GetPokemon7,200,OK,PokemonTask2 3-7,text,false,,221348,128,7,20,https://pokeapi.co/api/v2/pokemon/7,1121,0,774
+1610534191303,1353,GetPokemon7,200,OK,PokemonTask2 3-5,text,false,,221346,128,7,18,https://pokeapi.co/api/v2/pokemon/7,538,0,0
+1610534187908,4688,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-5,,false,,664052,384,7,18,null,2079,89,578
+1610534190583,2315,GetPokemon7,200,OK,PokemonTask2 3-4,text,false,,221348,128,6,16,https://pokeapi.co/api/v2/pokemon/7,784,0,0
+1610534187409,5420,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-4,,false,,664050,384,6,16,null,1572,98,388
+1610534192145,1320,GetPokemon7,200,OK,PokemonTask2 3-6,text,false,,221352,128,5,15,https://pokeapi.co/api/v2/pokemon/7,522,0,0
+1610534188409,4997,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-6,,false,,664048,384,5,15,null,1966,89,435
+1610534189409,4086,GetPokemon7,200,OK,PokemonTask2 3-8,text,false,,221354,128,5,15,https://pokeapi.co/api/v2/pokemon/7,1406,0,797
+1610534189910,3684,GetPokemon7,200,OK,PokemonTask2 3-9,text,false,,221348,128,4,14,https://pokeapi.co/api/v2/pokemon/7,1484,0,680
+1610534190492,3161,GetPokemon7,200,OK,PokemonTask2 3-10,text,false,,221348,128,4,13,https://pokeapi.co/api/v2/pokemon/7,1703,0,1125
+1610534192204,1467,GetPokemon7,200,OK,PokemonTask2 3-7,text,false,,221354,128,4,13,https://pokeapi.co/api/v2/pokemon/7,682,0,0
+1610534193623,502,GetPokemon7,200,OK,PokemonTask2 3-9,text,false,,221352,128,4,13,https://pokeapi.co/api/v2/pokemon/7,105,0,0
+1610534193690,647,GetPokemon7,200,OK,PokemonTask2 3-10,text,false,,221350,128,4,12,https://pokeapi.co/api/v2/pokemon/7,168,0,0
+1610534193526,840,GetPokemon7,200,OK,PokemonTask2 3-8,text,false,,221352,128,4,12,https://pokeapi.co/api/v2/pokemon/7,174,0,0
+1610534193711,931,GetPokemon7,200,OK,PokemonTask2 3-7,text,false,,221348,128,4,8,https://pokeapi.co/api/v2/pokemon/7,153,0,0
+1610534188909,5661,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-7,,false,,664050,384,4,8,null,1956,105,774
+1610534194362,414,GetPokemon7,200,OK,PokemonTask2 3-10,text,false,,221350,128,3,7,https://pokeapi.co/api/v2/pokemon/7,285,0,0
+1610534190491,4222,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-10,,false,,664048,384,3,7,null,2156,87,1125
+1610534194153,700,GetPokemon7,200,OK,PokemonTask2 3-9,text,false,,221356,128,2,6,https://pokeapi.co/api/v2/pokemon/7,187,0,0
+1610534189910,4886,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-9,,false,,664056,384,2,6,null,1776,86,680
+1610534194392,541,GetPokemon7,200,OK,PokemonTask2 3-8,text,false,,221354,128,1,4,https://pokeapi.co/api/v2/pokemon/7,232,0,0
+1610534189409,5467,Parent Controller,,"Number of samples in transaction : 3, number of failing samples : 3",PokemonTask2 3-8,,false,,664060,384,1,4,null,1812,94,797

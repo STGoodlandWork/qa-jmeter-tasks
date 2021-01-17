@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610530528991,236,HTTP Request,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,236,0,117
+1610530528990,236,Parent Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",Group of 20 1-1,,true,,997,125,1,1,null,236,2,117
+1610530953181,254,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,254,0,128
+1610530953435,142,Totoro by id,200,OK,Group of 20 1-1,text,true,,2275,167,1,1,http://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49,142,0,0
+1610530953180,396,Parent Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",Group of 20 1-1,,true,,3272,292,1,1,null,396,1,128
+1610531361348,241,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,241,0,123
+1610531361590,139,Totoro by id,200,OK,Group of 20 1-1,text,true,,2275,167,1,1,http://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49,139,0,0
+1610531361347,380,Parent Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",Group of 20 1-1,,true,,3272,292,1,1,null,380,38,123
+1610531513867,262,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,262,0,155
+1610531514131,118,Totoro by id,200,OK,Group of 20 1-1,text,true,,2275,167,1,1,http://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49,118,0,0
+1610531513866,380,Parent Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",Group of 20 1-1,,true,,3272,292,1,1,null,380,6,155
+1610531861285,228,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,228,0,126
+1610531861514,110,Totoro by id,200,OK,Group of 20 1-1,text,true,,2275,167,1,1,http://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49,110,0,0
+1610531861284,338,Parent Controller,200,"Number of samples in transaction : 3, number of failing samples : 0",Group of 20 1-1,,true,,3272,292,1,1,null,338,7,126
